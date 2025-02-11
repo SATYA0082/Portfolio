@@ -17,8 +17,8 @@ function Education() {
     {
       year: "2020 - 2023",
       degree: "Bachelor of Technology",
-      institution: "Jawaharlal Nehru Technological University",
-      grade: "8.22",
+      institution: "BVC Engineering College",
+      grade: "8.50",
     },
     {
       year: "2017 - 2020",

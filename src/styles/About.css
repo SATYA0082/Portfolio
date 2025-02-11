@@ -70,15 +70,22 @@
   .aboutInterests p strong {
     color: #ffd700;
     font-size: 20px; /* Style labels in bold and yellow */
-    width: 200px; /* Ensure all strong elements have the same width */
+    width: 220px; /* Ensure all strong elements have the same width */
     /* Prevent the strong elements from shrinking */
   }
+  .aboutInterests p b {
+    color: #ffd700;
+    font-size: 20px;
+    width : 50px;
+}
   
   .aboutSectionDivider {
     border: none;
     border-top: 3px solid #9d761d; /* Example color and width */
     width: 600px;
   }
+
+  
   
   /* Media queries for responsiveness */
   @media (max-width: 1080px) {
@@ -157,4 +164,10 @@
       font-size: 16px;
       width: 120px; /* Adjust the width for smaller screens */
     }
+    .aboutInterests p b {
+      color: #ffd700;
+      font-size: 20px;
+      width : 50px;
+      
+  }
   }

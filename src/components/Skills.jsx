@@ -13,7 +13,7 @@ function Skills() {
 
   const interpersonalSkills = [
     { name: "Communication", proficiency: 85 },
-    { name: "Teamwork", proficiency: 70 },
+    { name: "Teamwork", proficiency: 75 },
     { name: "Creativity", proficiency: 80 },
     { name: "Problem Solving", proficiency: 90 },
   ];

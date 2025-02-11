@@ -74,23 +74,23 @@ function About() {
             database management.
           </p>
           <div className="aboutInterests">
-            <p>
-              <strong>Profile:</strong> Software Development
+             <p>
+                  <strong>Profile</strong> <b>:</b> Software Development
+             </p>
+             <p>
+                  <strong>Domain</strong> <b>:</b> Web Development
+             </p>
+             <p>
+                  <strong>Education</strong> <b>:</b> Bachelor of Technology (B.Tech in CS)
             </p>
             <p>
-              <strong>Domain:</strong> Web Development
+                  <strong>Interests</strong> <b>:</b> Travelling, Information Gathering, Reading
             </p>
-            <p>
-              <strong>Education:</strong> Bachelor of Technology (B.Tech in CS)
-            </p>
-            <p>
-              <strong>Interests:</strong> Travelling, Information Gathering,
-              Reading, Learning New Techs
-            </p>
-            <p>
-              <strong>Languages Known:</strong> English, Telugu, Hindi
+             <p>
+                  <strong>Languages Known</strong> <b>:</b> English, Telugu, Hindi
             </p>
           </div>
+
         </div>
       </div>
     </div>

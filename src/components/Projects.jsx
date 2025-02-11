@@ -7,13 +7,22 @@ function Projects() {
   const modalRef = useRef(null);
 
   const projects = [
-       {
+    
+    {
       title: "Cook Hiring System",
-      period: "Feb 2023 to July 2023",
+      period: "Jan 2023 to Apr 2023",
       technology: "React js, ASP.Net API, MySQL",
       moreInfo:
-        "This application is built to help customers to post cooking jobs and the cooks can apply for the particular job posting online. While applying for the job, jobseekers can filter profile by uploading required documents and basic information. Customers have provision for submitting their reviews and profile to post the jobs. The Admins can view all the jobs submitted by customers and applied by the Job Seekers. Admin can either accept or reject the job.",
+        " This application is built to help customers to post cooking jobs and the cooks can apply for the particular job posting online.While applying for the job, jobseekers can filter profile by uploading required documents and basic information. Customers have provision for submitting their reviews and profile to post the jobs. The Admins can view all the jobs submitted by customers and applied by the Job Seekers. Admin can either accept or reject the job.",
       repo: "https://github.com/SATYA0082/CookHiringSystem",
+    },
+    {
+      title: "Parking Management System",
+      period: "July 2022 to Nov 2022",
+      technology: "Python, Tk GUI toolkit",
+      moreInfo:
+        "The project aims to develop a application that helps in generating the automated bills to the vehicles based on the duration the vehicle have been parked. If the user gives the details of his/her name, vehicle number, entry time, exit time, by this info we will calculate the parking fee and display the details of vehicle and display the parking fee to be paid.",
+      repo: "https://github.com/SATYA0082/ParkingManagementSystem",
     },
   ];
 
@@ -52,7 +61,7 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit my Github profile for more projects
+            Visit My Github Profile For More Projects
           </a>
         </button>
       </div>
