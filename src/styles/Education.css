@@ -1,0 +1,105 @@
+.educationSectionHeader {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+  }
+  
+  .educationCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .educationCard {
+    flex: 1;
+    max-width: 300px;
+    min-height: 300px;
+    background-color: #181818;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  
+  .educationCard:hover {
+    transform: scale(1.1);
+  }
+  
+  .educationCard h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  
+  .degree {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .institution {
+    font-size: 20px;
+    font-weight: 200;
+    color: grey;
+  }
+  
+  .grade {
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+  }
+  
+  .educationSectionDivider {
+    border: none;
+    border-top: 3px solid #9d761d; /* Example color and width */
+    margin-bottom: 20px;
+    width: 600px;
+  }
+  
+  @media (max-width: 1080px) {
+    .educationCard {
+      max-width: 250px;
+    }
+  
+    .educationCard h3 {
+      font-size: 26px;
+    }
+  
+    .degree {
+      font-size: 20px;
+    }
+  
+    .institution {
+      font-size: 18px;
+    }
+  
+    .educationSectionDivider {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .educationCardsContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .educationCard {
+      max-width: 100%;
+      padding: 30px;
+      margin-bottom: 0;
+      margin-top: 0;
+      min-height: 200px;
+    }
+  
+    .educationCard:hover {
+      transform: none;
+    }
+  
+    .educationSectionDivider {
+      width: 70%;
+      margin-bottom: 60px;
+    }
+  }

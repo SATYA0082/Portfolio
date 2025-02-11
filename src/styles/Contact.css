@@ -1,0 +1,207 @@
+.contactSectionHeader {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+  }
+  
+  .contactSectionHeader span {
+    color: #ffd700;
+  }
+  
+  .contactSectionDivider {
+    border: none;
+    border-top: 3px solid #9d761d;
+    width: 600px;
+    margin-bottom: 40px;
+  }
+  
+  .contactContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 100px;
+    padding: 50px;
+  }
+  
+  .contactList1 {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .contactList1 h2 {
+    color: #fff;
+  }
+  
+  .contactContent {
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    color: #fff;
+  }
+  
+  .contactDetails {
+    margin-left: 30px;
+  }
+  
+  .contactIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contactIcon {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #ffd700;
+  }
+  
+  .contactItem h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .contactItem p,
+  .contactItem a {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  .contactItem a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .contactItem a:hover {
+    text-decoration: underline;
+  }
+  
+  .contactList2 {
+    max-width: 600px;
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 300px;
+  }
+  
+  .sendMessageButton {
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .sendMessageButton:hover {
+    border: 2px solid #ffd700;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .contactList2 h2 {
+    color: #fff;
+  }
+  
+  @media (max-width: 1080px) {
+    .contactContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .contactList2 {
+      align-self: center;
+      width: 500px;
+    }
+  
+    .formGroup input,
+    .formGroup textarea {
+      width: 468px;
+    }
+  
+    .contactList1 {
+      align-self: center;
+    }
+  
+    .contactList1 h2 {
+      text-align: center;
+    }
+  
+    .contactList1 p {
+      text-align: center;
+    }
+  
+    .contactList2 h2 {
+      text-align: center;
+    }
+  
+    .contactSectionDivider {
+      width: 80%;
+    }
+  
+    .contactIcons {
+      margin: 0 auto;
+      width: fit-content;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .formGroup input,
+    .formGroup textarea {
+      width: 400px;
+    }
+  
+    .contactList2 {
+      align-self: center;
+      width: 435px;
+      margin-right: 30px;
+    }
+  }
+  
+  .footer {
+    background-color: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footerContent {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .copyrightIcon {
+    vertical-align: middle;
+  }

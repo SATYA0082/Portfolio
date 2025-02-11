@@ -1,0 +1,145 @@
+.homeContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contentContainer {
+    margin-top: 150px;
+    margin-left: 125px;
+    margin-right: 200px;
+  }
+  
+  .contentContainer h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .contentContainer h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #ffd700;
+  }
+  
+  .profilePhoto {
+    width: 350px;
+    height: 350px;
+    margin-top: 140px;
+    margin-right: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px #ffd700;
+    transition: transform 0.3s ease;
+  }
+  
+  .profilePhoto:hover {
+    transform: scale(1.1);
+  }
+  
+  .typingAnimation {
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 32px;
+    color: #ffd700;
+  }
+  
+  .cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.1em;
+    height: 1em;
+    background-color: #ffd700;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .resumeButton {
+    padding: 12px 28px;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #ffd700;
+    color: black;
+    transition: transform 0.3s ease;
+  }
+  
+  .resumeButton:hover {
+    border: 2px solid #ffd700;
+    background-color: #fff;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 1080px) {
+    .homeContent {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .contentContainer {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 120px;
+      text-align: center;
+    }
+  
+    .contentContainer h3 {
+      font-size: 24px;
+    }
+  
+    .contentContainer h1 {
+      font-size: 36px;
+    }
+  
+    .typingAnimation {
+      font-size: 24px;
+    }
+  
+    .profilePhoto {
+      width: 250px;
+      height: 250px;
+      margin-top: 50px;
+      margin-left: 100px;
+    }
+  
+    .resumeButton {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contentContainer h3 {
+      font-size: 24px;
+    }
+  
+    .contentContainer h1 {
+      font-size: 32px;
+    }
+  
+    .typingAnimation {
+      font-size: 24px;
+    }
+  
+    .profilePhoto {
+      width: 200px;
+      height: 200px;
+      margin-top: 50px;
+    }
+  
+    .resumeButton {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }

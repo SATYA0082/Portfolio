@@ -1,0 +1,160 @@
+.aboutSection {
+    background-color: black;
+  }
+  
+  .aboutSectionHeader {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+  }
+  
+  .aboutSectionHeader span {
+    color: #ffd700;
+  }
+  
+  .aboutContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 80px;
+  }
+  
+  .profilePhotoAbout {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px #ffd700;
+    margin-left: 40px;
+  }
+  
+  .aboutMatter {
+    max-width: 800px;
+  }
+  
+  .aboutMatter h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffd700;
+  }
+  
+  .im-in-about {
+    color: #fff;
+  }
+  
+  .aboutMatter p {
+    color: #fff;
+    word-spacing: 6px;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+  
+  .aboutInterests {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds spacing between each <p> tag */
+  }
+  
+  .aboutInterests p {
+    margin: 0; /* Removes default margin for better control */
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+  }
+  
+  .aboutInterests p strong {
+    color: #ffd700;
+    font-size: 20px; /* Style labels in bold and yellow */
+    width: 200px; /* Ensure all strong elements have the same width */
+    /* Prevent the strong elements from shrinking */
+  }
+  
+  .aboutSectionDivider {
+    border: none;
+    border-top: 3px solid #9d761d; /* Example color and width */
+    width: 600px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1080px) {
+    .aboutContent {
+      flex-direction: column;
+      gap: 40px;
+      padding: 30px;
+    }
+  
+    .profilePhotoAbout {
+      display: none;
+    }
+  
+    .aboutMatter {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .aboutMatter p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .typingAnimation {
+      align-self: center;
+    }
+    .aboutInterests {
+      align-self: center;
+    }
+  
+    .aboutSectionDivider {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .aboutContent {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .profilePhotoAbout {
+      display: none;
+    }
+  
+    .aboutMatter {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .aboutMatter h3 {
+      font-size: 24px;
+    }
+  
+    .aboutMatter p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .aboutSectionDivider {
+      width: 70%;
+    }
+  
+    .typingAnimation {
+      align-self: center;
+    }
+    .aboutInterests {
+      align-self: center;
+    }
+  
+    .aboutInterests p {
+      font-size: 14px;
+    }
+  
+    .aboutInterests p strong {
+      font-size: 16px;
+      width: 120px; /* Adjust the width for smaller screens */
+    }
+  }

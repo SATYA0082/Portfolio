@@ -1,0 +1,198 @@
+.projectsSectionHeader {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .projectsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 140px;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .myproject {
+    background-color: #181818;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .myproject h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: #ffd700;
+  }
+  
+  .myproject h3 {
+    color: grey;
+  }
+  
+  .projectTechnology {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .myproject button {
+    display: inline-block;
+    background-color: #ffd700;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .myproject button:hover {
+    border: 2px solid #ffd700;
+    background-color: #fff;
+    color: black;
+  }
+  
+  .projectsSectionDivider {
+    border: none;
+    border-top: 3px solid #9d761d;
+    margin-bottom: 80px;
+    width: 600px;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: #181818;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modalHeader h2 {
+    margin-top: 8px;
+  }
+  
+  .closeIcon {
+    color: #ffd700;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .modalContent h2 {
+    font-size: 32px;
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  .modalContent h3 {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .modalContent p {
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 2px;
+  }
+  
+  .modalContent .projectTechnology {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  
+  .modalContent .projectdescription {
+    color: grey;
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+  
+  .modalContent a {
+    display: inline-block;
+    background-color: #ffd700;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  
+  .gitDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gitButton a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .gitButton {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .gitButton:hover {
+    border: 2px solid #ffd700;
+    background-color: #fff;
+    color: black;
+  }
+  
+  @media (max-width: 1080px) {
+    .projectsList {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .projectsSectionDivider {
+      width: 80%;
+    }
+  
+    .myproject {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contactSectionDivider {
+      width: 70%;
+    }
+  
+    .myproject {
+      max-width: 100%;
+      padding: 30px;
+      min-height: 200px;
+    }
+  
+    .projectsList {
+      margin: 40px;
+    }
+  }
